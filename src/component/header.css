@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+.inner-flex-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+  .ant-layout-header,
+  .ant-layout-footer {
+    background:#6c757d;
+    color: #fff;
+  }
+
+
