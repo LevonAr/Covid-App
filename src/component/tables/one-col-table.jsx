@@ -11,31 +11,9 @@ const columns = [
     render: (text) => <a>{text}</a>,
   }
 ];
-const data = [
-  {
-    key: '1',
-    company: 'John Brown',
-  },
-  {
-    key: '2',
-    company: 'Jim Green',
-  },
-  {
-    key: '3',
-    company: 'Joe Black',
-  },
-  {
-    key: '3',
-    company: 'Joe Black',
-  },
-  {
-    key: '3',
-    company: 'Joe Black',
-  },
-];
 
 const OneColTable = (props) => {
-  const { title } = props;
+  const { title, data } = props;
   return(
     <>
       <Card

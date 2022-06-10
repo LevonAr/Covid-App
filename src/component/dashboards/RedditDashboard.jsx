@@ -33,6 +33,126 @@ class RedditDashboard extends PureComponent {
     }
 
     render() {
+        const topCompetitorsData = [
+            {
+              key: '1',
+              company: 'LinkedIn',
+            },
+            {
+              key: '2',
+              company: 'Blind',
+            },
+            {
+              key: '3',
+              company: 'Monster',
+            },
+            {
+              key: '4',
+              company: 'levels.fyi',
+            },
+            {
+              key: '5',
+              company: 'ZipRecruiter',
+            },
+        ];
+        const topSubRedditsData = [
+            {
+              key: '1',
+              company: 'cscareerquestions',
+            },
+            {
+              key: '2',
+              company: 'jobs',
+            },
+            {
+              key: '3',
+              company: 'antiwork',
+            },
+            {
+              key: '4',
+              company: 'personalfinance',
+            },
+            {
+              key: '5',
+              company: 'AskReddit',
+            },
+        ];
+        const topJobTitlesData = [
+            {
+              key: '1',
+              company: 'CEO',
+            },
+            {
+              key: '2',
+              company: 'Recruiter',
+            },
+            {
+              key: '3',
+              company: 'VP',
+            },
+            {
+              key: '4',
+              company: 'Software Engineer',
+            },
+            {
+              key: '5',
+              company: 'Director',
+            },
+        ];
+        const jobTitlesPositiveSentimentData = [
+            {
+              key: '1',
+              company: 'Data Scientist',
+              sentiment: 3.47
+            },
+            {
+              key: '2',
+              company: 'Business Analyst',
+              sentiment: 3.46
+            },
+            {
+              key: '3',
+              company: 'Recruiter',
+              sentiment: 3.31
+            },
+            {
+              key: '4',
+              company: 'Data Analyst',
+              sentiment: 3.17
+            },
+            {
+              key: '5',
+              company: 'Mechanical Engineer',
+              sentiment: 3.09
+            },
+        ];
+        const jobTitlesNegativeSentimentData = [
+            {
+              key: '1',
+              company: 'CEO',
+              sentiment: 1.78
+            },
+            {
+              key: '2',
+              company: 'VP',
+              sentiment: 1.93
+            },
+            {
+              key: '3',
+              company: 'CTO',
+              sentiment: 1.88
+            },
+            {
+              key: '4',
+              company: 'Partner',
+              sentiment: 1.69
+            },
+            {
+              key: '5',
+              company: 'English Teacher',
+              sentiment: 0.08
+            },
+        ];
         return (
         <div>
             <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
@@ -105,22 +225,22 @@ class RedditDashboard extends PureComponent {
 
                 <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
                     <div className="col-4">
-                        <OneColTable title={'Top Competitors'}></OneColTable>
+                        <OneColTable title={'Top Competitors'} data={topCompetitorsData}></OneColTable>
                     </div>
                     <div className="col-4">
-                        <OneColTable title={'Top Subreddits'}></OneColTable>
+                        <OneColTable title={'Top SubReddits'} data={topSubRedditsData}></OneColTable>
                     </div>
                     <div className="col-4">
-                        <OneColTable title={'Top Job Titles'}></OneColTable>
+                        <OneColTable title={'Top Job Titles'} data={topJobTitlesData}></OneColTable>
                     </div>
                 </div>
 
                 <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
                     <div className="col-6">
-                        <TwoColTable title={'Job Titles with Positive Sentiment '}></TwoColTable>
+                        <TwoColTable title={'Job Titles with Positive Sentiment '} data={jobTitlesPositiveSentimentData}></TwoColTable>
                     </div>
                     <div className="col-6">
-                        <TwoColTable title={'Job Titles with Negative Sentiment '}></TwoColTable>
+                        <TwoColTable title={'Job Titles with Negative Sentiment '} data={jobTitlesNegativeSentimentData}></TwoColTable>
                     </div>
                 </div>    
         </div> 
