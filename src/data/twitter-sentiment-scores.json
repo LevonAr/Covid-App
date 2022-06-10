@@ -1,0 +1,42 @@
+[
+    {
+      "week": "2022-05-31",
+      "sentiment_score": 2.43
+    },
+    {
+      "week": "2022-06-01",
+      "sentiment_score": 2.51
+    },
+    {
+      "week": "2022-06-02",
+      "sentiment_score": 2.53
+    },
+    {
+      "week": "2022-06-03",
+      "sentiment_score": 2.60
+    },
+    {
+      "week": "2022-06-04",
+      "sentiment_score": 2.74
+    },
+    {
+      "week": "2022-06-05",
+      "sentiment_score": 2.56
+    },
+    {
+      "week": "2022-06-06",
+      "sentiment_score": 2.68
+    },
+    {
+      "week": "2022-06-07",
+      "sentiment_score": 2.61
+    },
+    {
+      "week": "2022-06-08",
+      "sentiment_score": 2.87
+    },
+    {
+      "week": "2022-06-09",
+      "sentiment_score": 2.33
+    }
+]

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
-import $ from 'jquery';
-import Button from 'react-bootstrap/Button'
-
+import data from '../../static/data.json';
 
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
@@ -36,27 +34,9 @@ class ColumnChart extends Component {
     componentDidMount() {
 
         let ex_object = {}
-		//fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/covid19_data.json")
-
-
-		//this is one that works
-        //fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/perDay2.json")
-		
-		// this one has China, Aus and Canada
-		//fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/goddamnthis1.json")
-		
-		//this one is great updated to 3/31
-		//fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/3-31-daily.json")
-
-		// this file is basically the final form for countries up til 3/31
-		//fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/3-31-concat-daily.json")
-
-		// latest one
-		//fetch("https://raw.githubusercontent.com/DevLev95/Covid-19-data-JSON/master/3-31-concat-daily.json")
         
-        // latest one
-		//fetch("https://raw.githubusercontent.com/DevLev95/Covid-19-data-JSON/master/3-31-concat-daily1.json")
-        
+        console.log('data', data);
+
         fetch("https://raw.githubusercontent.com/LevonAr/Covid-19-data-JSON/master/countries_update1.json")
         .then((response) => {
             return response.text();

@@ -6,16 +6,15 @@ import {
 import TwoColTable from '../tables/two-col-table';
 import OneColTable from '../tables/one-col-table';
 import { Card, Statistic } from 'antd';
-import { ArrowDownOutlined, RedditCircleFilled } from '@ant-design/icons';
+import { TwitterCircleFilled } from '@ant-design/icons';
 
-
-import RedditSentimentScores from '../../data/reddit-sentiment-scores.json';
-import RedditWordcloud from '../../data/reddit-wordcloud.json'
+import TwitterSentimentScores from '../../data/twitter-sentiment-scores.json';
+import TwitterWordcloud from '../../data/twitter-wordcloud.json'
 
 import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/scale.css';
 
-class ColumnChartStates extends PureComponent {
+class RedditDashboard extends PureComponent {
 
     constructor(props){
         super(props)
@@ -28,7 +27,7 @@ class ColumnChartStates extends PureComponent {
         //scroll page up after clicking on state
         window.scrollTo(0, 0)
         this.setState({
-            data_array: RedditSentimentScores
+            data_array: TwitterSentimentScores
         })
     }
 
@@ -38,17 +37,17 @@ class ColumnChartStates extends PureComponent {
             <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
                 <div className="col-12">
                     <Card
-                        title="Mentions this week on Reddit"
+                        title="Twitter Weekly Mentions"
                         style={{
                         backgroundColor: 'rgb(39,39,39)',
                         }}
                     >   
                         <div className='d-flex align-items-center'>
-                            <RedditCircleFilled style={{ fontSize: '46px', color: 'rgb(255, 69, 0)', paddingRight: '8px'}}/>
+                            <TwitterCircleFilled style={{ fontSize: '46px', color: 'rgb(29, 161, 242)', paddingRight: '8px'}}/>
                             <Statistic
-                                value={910}
+                                value={1780}
                                 valueStyle={{
-                                    color: 'rgb(255, 69, 0)',
+                                    color: 'rgb(29, 161, 242)',
                                     fontSize: '46px'
                                 }}
                             />                        
@@ -62,7 +61,7 @@ class ColumnChartStates extends PureComponent {
             <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
                 <div className="col-12">
                     <Card
-                        title="Sentiment score on Reddit"
+                        title="Twitter Sentiment Score"
                         style={{
                         backgroundColor: 'rgb(39,39,39)',
                         }}
@@ -80,7 +79,7 @@ class ColumnChartStates extends PureComponent {
                         <YAxis domain={[2, 3]} stroke="white"/>
                         <Tooltip />
                         <Legend height={30} verticalAlign="top"/>
-                        <Line type="monotone" dataKey="sentiment_score" stroke="rgb(255, 69, 0)" activeDot={{ r: 8 }} />
+                        <Line type="monotone" dataKey="sentiment_score" stroke="rgb(29, 161, 242)" activeDot={{ r: 8 }} strokeWidth={4}/>
                         </LineChart>
                     </Card>
                 </div>
@@ -90,42 +89,21 @@ class ColumnChartStates extends PureComponent {
                 <div className="col-12">
 
                     <Card
-                        title="Wordcloud"
+                        title="Twitter Wordcloud"
                         style={{
                         backgroundColor: 'rgb(39,39,39)',
                         }}
                     >
                         <ReactWordcloud 
-                            words={RedditWordcloud}
-                            options={{fontSizes: [15, 80], colors: ['#FD7F20', '#FC2E20', '#FDB750', '#010100', 'rgb(255, 69, 0)', 'rgb(255, 255, 255)']}}
+                            words={TwitterWordcloud}
+                            options={{fontSizes: [15, 80], colors: ['#68BBE3', '#0E86D4', '#055C9D', '#003060', 'rgb(8, 160, 233)', 'rgb(0, 132, 180)', 'rgb(255, 255, 255)']}}
                         />
                     </Card>
                 </div>
             </div>
-
-                <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
-                    <div className="col-4">
-                        <OneColTable title={'Top Competitors'}></OneColTable>
-                    </div>
-                    <div className="col-4">
-                        <OneColTable title={'Top Subreddits'}></OneColTable>
-                    </div>
-                    <div className="col-4">
-                        <OneColTable title={'Top Job Titles'}></OneColTable>
-                    </div>
-                </div>
-
-                <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
-                    <div className="col-6">
-                        <TwoColTable title={'Job Titles with Positive Sentiment '}></TwoColTable>
-                    </div>
-                    <div className="col-6">
-                        <TwoColTable title={'Job Titles with Negative Sentiment '}></TwoColTable>
-                    </div>
-                </div>    
         </div> 
         );
     }
 }
 
-export default ColumnChartStates;
+export default RedditDashboard;

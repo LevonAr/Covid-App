@@ -1,0 +1,1426 @@
+[
+    {
+      "week": "2015-06-08",
+      "sentiment_score": 2.584574884
+    },
+    {
+      "week": "2015-06-15",
+      "sentiment_score": 2.567912908
+    },
+    {
+      "week": "2015-06-22",
+      "sentiment_score": 2.593681024
+    },
+    {
+      "week": "2015-06-29",
+      "sentiment_score": 2.611141341
+    },
+    {
+      "week": "2015-07-06",
+      "sentiment_score": 2.617126894
+    },
+    {
+      "week": "2015-07-13",
+      "sentiment_score": 2.635381457
+    },
+    {
+      "week": "2015-07-20",
+      "sentiment_score": 2.681967644
+    },
+    {
+      "week": "2015-07-27",
+      "sentiment_score": 2.656457622
+    },
+    {
+      "week": "2015-08-03",
+      "sentiment_score": 2.660102534
+    },
+    {
+      "week": "2015-08-10",
+      "sentiment_score": 2.654310674
+    },
+    {
+      "week": "2015-08-17",
+      "sentiment_score": 2.678208979
+    },
+    {
+      "week": "2015-08-24",
+      "sentiment_score": 2.687743432
+    },
+    {
+      "week": "2015-08-31",
+      "sentiment_score": 2.684127271
+    },
+    {
+      "week": "2015-09-07",
+      "sentiment_score": 2.690476477
+    },
+    {
+      "week": "2015-09-14",
+      "sentiment_score": 2.677965692
+    },
+    {
+      "week": "2015-09-21",
+      "sentiment_score": 2.674547609
+    },
+    {
+      "week": "2015-09-28",
+      "sentiment_score": 2.594001125
+    },
+    {
+      "week": "2015-10-05",
+      "sentiment_score": 2.560500728
+    },
+    {
+      "week": "2015-10-12",
+      "sentiment_score": 2.52719733
+    },
+    {
+      "week": "2015-10-19",
+      "sentiment_score": 2.508827633
+    },
+    {
+      "week": "2015-10-26",
+      "sentiment_score": 2.503262661
+    },
+    {
+      "week": "2015-11-02",
+      "sentiment_score": 2.507775804
+    },
+    {
+      "week": "2015-11-09",
+      "sentiment_score": 2.516527383
+    },
+    {
+      "week": "2015-11-16",
+      "sentiment_score": 2.498621046
+    },
+    {
+      "week": "2015-11-23",
+      "sentiment_score": 2.499509025
+    },
+    {
+      "week": "2015-11-30",
+      "sentiment_score": 2.484469114
+    },
+    {
+      "week": "2015-12-07",
+      "sentiment_score": 2.534403782
+    },
+    {
+      "week": "2015-12-14",
+      "sentiment_score": 2.539864164
+    },
+    {
+      "week": "2015-12-21",
+      "sentiment_score": 2.554554727
+    },
+    {
+      "week": "2015-12-28",
+      "sentiment_score": 2.581439669
+    },
+    {
+      "week": "2016-01-04",
+      "sentiment_score": 2.564818047
+    },
+    {
+      "week": "2016-01-11",
+      "sentiment_score": 2.577381591
+    },
+    {
+      "week": "2016-01-18",
+      "sentiment_score": 2.551780098
+    },
+    {
+      "week": "2016-01-25",
+      "sentiment_score": 2.578747922
+    },
+    {
+      "week": "2016-02-01",
+      "sentiment_score": 2.581282287
+    },
+    {
+      "week": "2016-02-08",
+      "sentiment_score": 2.586739172
+    },
+    {
+      "week": "2016-02-15",
+      "sentiment_score": 2.605162432
+    },
+    {
+      "week": "2016-02-22",
+      "sentiment_score": 2.622491996
+    },
+    {
+      "week": "2016-02-29",
+      "sentiment_score": 2.624141302
+    },
+    {
+      "week": "2016-03-07",
+      "sentiment_score": 2.621082134
+    },
+    {
+      "week": "2016-03-14",
+      "sentiment_score": 2.658729396
+    },
+    {
+      "week": "2016-03-21",
+      "sentiment_score": 2.625087421
+    },
+    {
+      "week": "2016-03-28",
+      "sentiment_score": 2.633468027
+    },
+    {
+      "week": "2016-04-04",
+      "sentiment_score": 2.612050217
+    },
+    {
+      "week": "2016-04-11",
+      "sentiment_score": 2.606819774
+    },
+    {
+      "week": "2016-04-18",
+      "sentiment_score": 2.594756282
+    },
+    {
+      "week": "2016-04-25",
+      "sentiment_score": 2.57031379
+    },
+    {
+      "week": "2016-05-02",
+      "sentiment_score": 2.59251414
+    },
+    {
+      "week": "2016-05-09",
+      "sentiment_score": 2.601061148
+    },
+    {
+      "week": "2016-05-16",
+      "sentiment_score": 2.585363035
+    },
+    {
+      "week": "2016-05-23",
+      "sentiment_score": 2.573504061
+    },
+    {
+      "week": "2016-05-30",
+      "sentiment_score": 2.569002145
+    },
+    {
+      "week": "2016-06-06",
+      "sentiment_score": 2.564148443
+    },
+    {
+      "week": "2016-06-13",
+      "sentiment_score": 2.559838098
+    },
+    {
+      "week": "2016-06-20",
+      "sentiment_score": 2.55982382
+    },
+    {
+      "week": "2016-06-27",
+      "sentiment_score": 2.568807272
+    },
+    {
+      "week": "2016-07-04",
+      "sentiment_score": 2.608852134
+    },
+    {
+      "week": "2016-07-11",
+      "sentiment_score": 2.590836261
+    },
+    {
+      "week": "2016-07-18",
+      "sentiment_score": 2.598955919
+    },
+    {
+      "week": "2016-07-25",
+      "sentiment_score": 2.618848776
+    },
+    {
+      "week": "2016-08-01",
+      "sentiment_score": 2.608411482
+    },
+    {
+      "week": "2016-08-08",
+      "sentiment_score": 2.610849906
+    },
+    {
+      "week": "2016-08-15",
+      "sentiment_score": 2.610849906
+    },
+    {
+      "week": "2016-08-22",
+      "sentiment_score": 2.615849906
+    },
+    {
+      "week": "2016-08-29",
+      "sentiment_score": 2.601893595
+    },
+    {
+      "week": "2016-09-05",
+      "sentiment_score": 2.573906312
+    },
+    {
+      "week": "2016-09-12",
+      "sentiment_score": 2.550393439
+    },
+    {
+      "week": "2016-09-19",
+      "sentiment_score": 2.56614044
+    },
+    {
+      "week": "2016-09-26",
+      "sentiment_score": 2.558886371
+    },
+    {
+      "week": "2016-10-03",
+      "sentiment_score": 2.521455052
+    },
+    {
+      "week": "2016-10-10",
+      "sentiment_score": 2.523155786
+    },
+    {
+      "week": "2016-10-17",
+      "sentiment_score": 2.537958742
+    },
+    {
+      "week": "2016-10-24",
+      "sentiment_score": 2.549834852
+    },
+    {
+      "week": "2016-10-31",
+      "sentiment_score": 2.57130544
+    },
+    {
+      "week": "2016-11-07",
+      "sentiment_score": 2.626358632
+    },
+    {
+      "week": "2016-11-14",
+      "sentiment_score": 2.657874134
+    },
+    {
+      "week": "2016-11-21",
+      "sentiment_score": 2.66539364
+    },
+    {
+      "week": "2016-11-28",
+      "sentiment_score": 2.671327312
+    },
+    {
+      "week": "2016-12-05",
+      "sentiment_score": 2.653581381
+    },
+    {
+      "week": "2016-12-12",
+      "sentiment_score": 2.6722627
+    },
+    {
+      "week": "2016-12-19",
+      "sentiment_score": 2.663569067
+    },
+    {
+      "week": "2016-12-26",
+      "sentiment_score": 2.66233754
+    },
+    {
+      "week": "2017-01-02",
+      "sentiment_score": 2.655886365
+    },
+    {
+      "week": "2017-01-09",
+      "sentiment_score": 2.648860221
+    },
+    {
+      "week": "2017-01-16",
+      "sentiment_score": 2.639889119
+    },
+    {
+      "week": "2017-01-23",
+      "sentiment_score": 2.639618502
+    },
+    {
+      "week": "2017-01-30",
+      "sentiment_score": 2.644205418
+    },
+    {
+      "week": "2017-02-06",
+      "sentiment_score": 2.638663742
+    },
+    {
+      "week": "2017-02-13",
+      "sentiment_score": 2.656620091
+    },
+    {
+      "week": "2017-02-20",
+      "sentiment_score": 2.662725098
+    },
+    {
+      "week": "2017-02-27",
+      "sentiment_score": 2.659321956
+    },
+    {
+      "week": "2017-03-06",
+      "sentiment_score": 2.658406205
+    },
+    {
+      "week": "2017-03-13",
+      "sentiment_score": 2.653858633
+    },
+    {
+      "week": "2017-03-20",
+      "sentiment_score": 2.636573657
+    },
+    {
+      "week": "2017-03-27",
+      "sentiment_score": 2.590906259
+    },
+    {
+      "week": "2017-04-03",
+      "sentiment_score": 2.596131232
+    },
+    {
+      "week": "2017-04-10",
+      "sentiment_score": 2.59687646
+    },
+    {
+      "week": "2017-04-17",
+      "sentiment_score": 2.581465755
+    },
+    {
+      "week": "2017-04-24",
+      "sentiment_score": 2.573539092
+    },
+    {
+      "week": "2017-05-01",
+      "sentiment_score": 2.567904398
+    },
+    {
+      "week": "2017-05-08",
+      "sentiment_score": 2.567449852
+    },
+    {
+      "week": "2017-05-15",
+      "sentiment_score": 2.551905976
+    },
+    {
+      "week": "2017-05-22",
+      "sentiment_score": 2.537809891
+    },
+    {
+      "week": "2017-05-29",
+      "sentiment_score": 2.559179835
+    },
+    {
+      "week": "2017-06-05",
+      "sentiment_score": 2.582376254
+    },
+    {
+      "week": "2017-06-12",
+      "sentiment_score": 2.579852755
+    },
+    {
+      "week": "2017-06-19",
+      "sentiment_score": 2.56998703
+    },
+    {
+      "week": "2017-06-26",
+      "sentiment_score": 2.573385723
+    },
+    {
+      "week": "2017-07-03",
+      "sentiment_score": 2.574431687
+    },
+    {
+      "week": "2017-07-10",
+      "sentiment_score": 2.563543409
+    },
+    {
+      "week": "2017-07-17",
+      "sentiment_score": 2.570149374
+    },
+    {
+      "week": "2017-07-24",
+      "sentiment_score": 2.572152639
+    },
+    {
+      "week": "2017-07-31",
+      "sentiment_score": 2.597739912
+    },
+    {
+      "week": "2017-08-07",
+      "sentiment_score": 2.578228357
+    },
+    {
+      "week": "2017-08-14",
+      "sentiment_score": 2.560838176
+    },
+    {
+      "week": "2017-08-21",
+      "sentiment_score": 2.548529747
+    },
+    {
+      "week": "2017-08-28",
+      "sentiment_score": 2.537931095
+    },
+    {
+      "week": "2017-09-25",
+      "sentiment_score": 2.530201627
+    },
+    {
+      "week": "2017-10-02",
+      "sentiment_score": 2.540069844
+    },
+    {
+      "week": "2017-10-09",
+      "sentiment_score": 2.543344953
+    },
+    {
+      "week": "2017-10-16",
+      "sentiment_score": 2.537477625
+    },
+    {
+      "week": "2017-10-23",
+      "sentiment_score": 2.543322032
+    },
+    {
+      "week": "2017-10-30",
+      "sentiment_score": 2.519146857
+    },
+    {
+      "week": "2017-11-06",
+      "sentiment_score": 2.532475939
+    },
+    {
+      "week": "2017-11-13",
+      "sentiment_score": 2.525705913
+    },
+    {
+      "week": "2017-11-20",
+      "sentiment_score": 2.524703758
+    },
+    {
+      "week": "2017-11-27",
+      "sentiment_score": 2.534007483
+    },
+    {
+      "week": "2017-12-04",
+      "sentiment_score": 2.540826205
+    },
+    {
+      "week": "2017-12-11",
+      "sentiment_score": 2.538468938
+    },
+    {
+      "week": "2017-12-18",
+      "sentiment_score": 2.538468938
+    },
+    {
+      "week": "2017-12-25",
+      "sentiment_score": 2.539184847
+    },
+    {
+      "week": "2018-01-01",
+      "sentiment_score": 2.537662713
+    },
+    {
+      "week": "2018-01-08",
+      "sentiment_score": 2.551865449
+    },
+    {
+      "week": "2018-01-15",
+      "sentiment_score": 2.548210818
+    },
+    {
+      "week": "2018-01-22",
+      "sentiment_score": 2.577041625
+    },
+    {
+      "week": "2018-01-29",
+      "sentiment_score": 2.569327809
+    },
+    {
+      "week": "2018-03-26",
+      "sentiment_score": 2.5700099
+    },
+    {
+      "week": "2018-04-02",
+      "sentiment_score": 2.574776856
+    },
+    {
+      "week": "2018-04-09",
+      "sentiment_score": 2.567498216
+    },
+    {
+      "week": "2018-04-16",
+      "sentiment_score": 2.587167886
+    },
+    {
+      "week": "2018-04-23",
+      "sentiment_score": 2.591396644
+    },
+    {
+      "week": "2018-04-30",
+      "sentiment_score": 2.592693737
+    },
+    {
+      "week": "2018-05-07",
+      "sentiment_score": 2.592285977
+    },
+    {
+      "week": "2018-05-14",
+      "sentiment_score": 2.581064258
+    },
+    {
+      "week": "2018-05-21",
+      "sentiment_score": 2.576608514
+    },
+    {
+      "week": "2018-05-28",
+      "sentiment_score": 2.590370124
+    },
+    {
+      "week": "2018-06-04",
+      "sentiment_score": 2.598393812
+    },
+    {
+      "week": "2018-06-11",
+      "sentiment_score": 2.596786926
+    },
+    {
+      "week": "2018-06-18",
+      "sentiment_score": 2.574842108
+    },
+    {
+      "week": "2018-06-25",
+      "sentiment_score": 2.55699062
+    },
+    {
+      "week": "2018-07-02",
+      "sentiment_score": 2.555691401
+    },
+    {
+      "week": "2018-07-09",
+      "sentiment_score": 2.560298549
+    },
+    {
+      "week": "2018-07-16",
+      "sentiment_score": 2.539971284
+    },
+    {
+      "week": "2018-07-23",
+      "sentiment_score": 2.552365561
+    },
+    {
+      "week": "2018-07-30",
+      "sentiment_score": 2.546385506
+    },
+    {
+      "week": "2018-08-06",
+      "sentiment_score": 2.523799067
+    },
+    {
+      "week": "2018-08-13",
+      "sentiment_score": 2.513476399
+    },
+    {
+      "week": "2018-08-20",
+      "sentiment_score": 2.512848555
+    },
+    {
+      "week": "2018-08-27",
+      "sentiment_score": 2.515404603
+    },
+    {
+      "week": "2018-09-03",
+      "sentiment_score": 2.516066839
+    },
+    {
+      "week": "2018-09-10",
+      "sentiment_score": 2.53207194
+    },
+    {
+      "week": "2018-09-17",
+      "sentiment_score": 2.526777979
+    },
+    {
+      "week": "2018-09-24",
+      "sentiment_score": 2.556752404
+    },
+    {
+      "week": "2018-10-01",
+      "sentiment_score": 2.540776428
+    },
+    {
+      "week": "2018-10-08",
+      "sentiment_score": 2.542645706
+    },
+    {
+      "week": "2018-10-15",
+      "sentiment_score": 2.566351379
+    },
+    {
+      "week": "2018-10-22",
+      "sentiment_score": 2.565057677
+    },
+    {
+      "week": "2018-10-29",
+      "sentiment_score": 2.564709911
+    },
+    {
+      "week": "2018-11-05",
+      "sentiment_score": 2.593081188
+    },
+    {
+      "week": "2018-11-12",
+      "sentiment_score": 2.58405756
+    },
+    {
+      "week": "2018-11-19",
+      "sentiment_score": 2.566652102
+    },
+    {
+      "week": "2018-11-26",
+      "sentiment_score": 2.569223531
+    },
+    {
+      "week": "2018-12-03",
+      "sentiment_score": 2.551292623
+    },
+    {
+      "week": "2018-12-10",
+      "sentiment_score": 2.559430761
+    },
+    {
+      "week": "2018-12-17",
+      "sentiment_score": 2.557329207
+    },
+    {
+      "week": "2018-12-24",
+      "sentiment_score": 2.559764347
+    },
+    {
+      "week": "2018-12-31",
+      "sentiment_score": 2.564731493
+    },
+    {
+      "week": "2019-01-07",
+      "sentiment_score": 2.565796961
+    },
+    {
+      "week": "2019-01-14",
+      "sentiment_score": 2.568724523
+    },
+    {
+      "week": "2019-01-21",
+      "sentiment_score": 2.593994324
+    },
+    {
+      "week": "2019-01-28",
+      "sentiment_score": 2.598119134
+    },
+    {
+      "week": "2019-02-04",
+      "sentiment_score": 2.609166263
+    },
+    {
+      "week": "2019-02-11",
+      "sentiment_score": 2.623130846
+    },
+    {
+      "week": "2019-02-18",
+      "sentiment_score": 2.601996676
+    },
+    {
+      "week": "2019-02-25",
+      "sentiment_score": 2.61677068
+    },
+    {
+      "week": "2019-03-04",
+      "sentiment_score": 2.61235725
+    },
+    {
+      "week": "2019-03-11",
+      "sentiment_score": 2.61342994
+    },
+    {
+      "week": "2019-03-18",
+      "sentiment_score": 2.625702268
+    },
+    {
+      "week": "2019-03-25",
+      "sentiment_score": 2.606602222
+    },
+    {
+      "week": "2019-04-01",
+      "sentiment_score": 2.599447683
+    },
+    {
+      "week": "2019-04-08",
+      "sentiment_score": 2.603269881
+    },
+    {
+      "week": "2019-04-15",
+      "sentiment_score": 2.586613556
+    },
+    {
+      "week": "2019-04-22",
+      "sentiment_score": 2.57488276
+    },
+    {
+      "week": "2019-04-29",
+      "sentiment_score": 2.592940242
+    },
+    {
+      "week": "2019-05-06",
+      "sentiment_score": 2.594481173
+    },
+    {
+      "week": "2019-05-13",
+      "sentiment_score": 2.574264318
+    },
+    {
+      "week": "2019-05-20",
+      "sentiment_score": 2.579069102
+    },
+    {
+      "week": "2019-05-27",
+      "sentiment_score": 2.571304126
+    },
+    {
+      "week": "2019-06-03",
+      "sentiment_score": 2.568153965
+    },
+    {
+      "week": "2019-06-10",
+      "sentiment_score": 2.545167122
+    },
+    {
+      "week": "2019-06-17",
+      "sentiment_score": 2.538776534
+    },
+    {
+      "week": "2019-06-24",
+      "sentiment_score": 2.543959613
+    },
+    {
+      "week": "2019-07-01",
+      "sentiment_score": 2.552832478
+    },
+    {
+      "week": "2019-07-08",
+      "sentiment_score": 2.558604362
+    },
+    {
+      "week": "2019-07-15",
+      "sentiment_score": 2.555141158
+    },
+    {
+      "week": "2019-07-22",
+      "sentiment_score": 2.568280426
+    },
+    {
+      "week": "2019-07-29",
+      "sentiment_score": 2.554278488
+    },
+    {
+      "week": "2019-08-05",
+      "sentiment_score": 2.548645996
+    },
+    {
+      "week": "2019-08-12",
+      "sentiment_score": 2.547955951
+    },
+    {
+      "week": "2019-08-19",
+      "sentiment_score": 2.564559421
+    },
+    {
+      "week": "2019-08-26",
+      "sentiment_score": 2.563986214
+    },
+    {
+      "week": "2019-09-02",
+      "sentiment_score": 2.576455692
+    },
+    {
+      "week": "2019-09-09",
+      "sentiment_score": 2.554739636
+    },
+    {
+      "week": "2019-09-16",
+      "sentiment_score": 2.552342254
+    },
+    {
+      "week": "2019-09-23",
+      "sentiment_score": 2.539343774
+    },
+    {
+      "week": "2019-09-30",
+      "sentiment_score": 2.532368594
+    },
+    {
+      "week": "2019-10-07",
+      "sentiment_score": 2.539317352
+    },
+    {
+      "week": "2019-10-14",
+      "sentiment_score": 2.531571193
+    },
+    {
+      "week": "2019-10-21",
+      "sentiment_score": 2.538472999
+    },
+    {
+      "week": "2019-10-28",
+      "sentiment_score": 2.55420943
+    },
+    {
+      "week": "2019-11-04",
+      "sentiment_score": 2.558603492
+    },
+    {
+      "week": "2019-11-11",
+      "sentiment_score": 2.546595219
+    },
+    {
+      "week": "2019-11-18",
+      "sentiment_score": 2.567065512
+    },
+    {
+      "week": "2019-11-25",
+      "sentiment_score": 2.548069201
+    },
+    {
+      "week": "2019-12-02",
+      "sentiment_score": 2.550860934
+    },
+    {
+      "week": "2019-12-09",
+      "sentiment_score": 2.565262399
+    },
+    {
+      "week": "2019-12-16",
+      "sentiment_score": 2.564301256
+    },
+    {
+      "week": "2019-12-23",
+      "sentiment_score": 2.577164611
+    },
+    {
+      "week": "2019-12-30",
+      "sentiment_score": 2.576220252
+    },
+    {
+      "week": "2020-01-06",
+      "sentiment_score": 2.566816881
+    },
+    {
+      "week": "2020-01-13",
+      "sentiment_score": 2.571515464
+    },
+    {
+      "week": "2020-01-20",
+      "sentiment_score": 2.580441686
+    },
+    {
+      "week": "2020-01-27",
+      "sentiment_score": 2.585434822
+    },
+    {
+      "week": "2020-02-03",
+      "sentiment_score": 2.615879526
+    },
+    {
+      "week": "2020-02-10",
+      "sentiment_score": 2.623984359
+    },
+    {
+      "week": "2020-02-17",
+      "sentiment_score": 2.62281177
+    },
+    {
+      "week": "2020-02-24",
+      "sentiment_score": 2.617281471
+    },
+    {
+      "week": "2020-03-02",
+      "sentiment_score": 2.597061346
+    },
+    {
+      "week": "2020-03-09",
+      "sentiment_score": 2.583103899
+    },
+    {
+      "week": "2020-03-16",
+      "sentiment_score": 2.552427931
+    },
+    {
+      "week": "2020-03-23",
+      "sentiment_score": 2.513145572
+    },
+    {
+      "week": "2020-03-30",
+      "sentiment_score": 2.497321149
+    },
+    {
+      "week": "2020-04-06",
+      "sentiment_score": 2.471815728
+    },
+    {
+      "week": "2020-04-13",
+      "sentiment_score": 2.427922876
+    },
+    {
+      "week": "2020-04-20",
+      "sentiment_score": 2.397083577
+    },
+    {
+      "week": "2020-04-27",
+      "sentiment_score": 2.368011545
+    },
+    {
+      "week": "2020-05-04",
+      "sentiment_score": 2.373703496
+    },
+    {
+      "week": "2020-05-11",
+      "sentiment_score": 2.374259051
+    },
+    {
+      "week": "2020-05-18",
+      "sentiment_score": 2.372519962
+    },
+    {
+      "week": "2020-05-25",
+      "sentiment_score": 2.391886957
+    },
+    {
+      "week": "2020-06-01",
+      "sentiment_score": 2.421226995
+    },
+    {
+      "week": "2020-06-08",
+      "sentiment_score": 2.414905712
+    },
+    {
+      "week": "2020-06-15",
+      "sentiment_score": 2.417404532
+    },
+    {
+      "week": "2020-06-22",
+      "sentiment_score": 2.446402556
+    },
+    {
+      "week": "2020-06-29",
+      "sentiment_score": 2.454519554
+    },
+    {
+      "week": "2020-07-06",
+      "sentiment_score": 2.466464018
+    },
+    {
+      "week": "2020-07-13",
+      "sentiment_score": 2.4532711
+    },
+    {
+      "week": "2020-07-20",
+      "sentiment_score": 2.466545332
+    },
+    {
+      "week": "2020-07-27",
+      "sentiment_score": 2.47464773
+    },
+    {
+      "week": "2020-08-03",
+      "sentiment_score": 2.476986949
+    },
+    {
+      "week": "2020-08-10",
+      "sentiment_score": 2.478081452
+    },
+    {
+      "week": "2020-08-17",
+      "sentiment_score": 2.487011073
+    },
+    {
+      "week": "2020-08-24",
+      "sentiment_score": 2.492248187
+    },
+    {
+      "week": "2020-08-31",
+      "sentiment_score": 2.499299213
+    },
+    {
+      "week": "2020-09-07",
+      "sentiment_score": 2.514591795
+    },
+    {
+      "week": "2020-09-14",
+      "sentiment_score": 2.528762657
+    },
+    {
+      "week": "2020-09-21",
+      "sentiment_score": 2.551568887
+    },
+    {
+      "week": "2020-09-28",
+      "sentiment_score": 2.549689454
+    },
+    {
+      "week": "2020-10-05",
+      "sentiment_score": 2.55666825
+    },
+    {
+      "week": "2020-10-12",
+      "sentiment_score": 2.543826876
+    },
+    {
+      "week": "2020-10-19",
+      "sentiment_score": 2.546601182
+    },
+    {
+      "week": "2020-10-26",
+      "sentiment_score": 2.540891047
+    },
+    {
+      "week": "2020-11-02",
+      "sentiment_score": 2.541372173
+    },
+    {
+      "week": "2020-11-09",
+      "sentiment_score": 2.529038854
+    },
+    {
+      "week": "2020-11-16",
+      "sentiment_score": 2.514930601
+    },
+    {
+      "week": "2020-11-23",
+      "sentiment_score": 2.51079279
+    },
+    {
+      "week": "2020-11-30",
+      "sentiment_score": 2.518925626
+    },
+    {
+      "week": "2020-12-07",
+      "sentiment_score": 2.51049494
+    },
+    {
+      "week": "2020-12-14",
+      "sentiment_score": 2.498261063
+    },
+    {
+      "week": "2020-12-21",
+      "sentiment_score": 2.510077947
+    },
+    {
+      "week": "2020-12-28",
+      "sentiment_score": 2.504677638
+    },
+    {
+      "week": "2021-01-04",
+      "sentiment_score": 2.509315905
+    },
+    {
+      "week": "2021-01-11",
+      "sentiment_score": 2.525256571
+    },
+    {
+      "week": "2021-01-18",
+      "sentiment_score": 2.529277539
+    },
+    {
+      "week": "2021-01-25",
+      "sentiment_score": 2.535745708
+    },
+    {
+      "week": "2021-02-01",
+      "sentiment_score": 2.524078574
+    },
+    {
+      "week": "2021-02-08",
+      "sentiment_score": 2.496253314
+    },
+    {
+      "week": "2021-02-15",
+      "sentiment_score": 2.504515255
+    },
+    {
+      "week": "2021-02-22",
+      "sentiment_score": 2.512440359
+    },
+    {
+      "week": "2021-03-01",
+      "sentiment_score": 2.515150152
+    },
+    {
+      "week": "2021-03-08",
+      "sentiment_score": 2.522870605
+    },
+    {
+      "week": "2021-03-15",
+      "sentiment_score": 2.517699359
+    },
+    {
+      "week": "2021-03-22",
+      "sentiment_score": 2.504475216
+    },
+    {
+      "week": "2021-03-29",
+      "sentiment_score": 2.51730054
+    },
+    {
+      "week": "2021-04-05",
+      "sentiment_score": 2.530382488
+    },
+    {
+      "week": "2021-04-12",
+      "sentiment_score": 2.535922474
+    },
+    {
+      "week": "2021-04-19",
+      "sentiment_score": 2.547101705
+    },
+    {
+      "week": "2021-04-26",
+      "sentiment_score": 2.551929291
+    },
+    {
+      "week": "2021-05-03",
+      "sentiment_score": 2.548099728
+    },
+    {
+      "week": "2021-05-10",
+      "sentiment_score": 2.546218461
+    },
+    {
+      "week": "2021-05-17",
+      "sentiment_score": 2.544856665
+    },
+    {
+      "week": "2021-05-24",
+      "sentiment_score": 2.54759569
+    },
+    {
+      "week": "2021-05-31",
+      "sentiment_score": 2.543872455
+    },
+    {
+      "week": "2021-06-07",
+      "sentiment_score": 2.528912366
+    },
+    {
+      "week": "2021-06-14",
+      "sentiment_score": 2.519229315
+    },
+    {
+      "week": "2021-06-21",
+      "sentiment_score": 2.526695733
+    },
+    {
+      "week": "2021-06-28",
+      "sentiment_score": 2.533266016
+    },
+    {
+      "week": "2021-07-05",
+      "sentiment_score": 2.524990153
+    },
+    {
+      "week": "2021-07-12",
+      "sentiment_score": 2.531404594
+    },
+    {
+      "week": "2021-07-19",
+      "sentiment_score": 2.526154899
+    },
+    {
+      "week": "2021-07-26",
+      "sentiment_score": 2.517366319
+    },
+    {
+      "week": "2021-08-02",
+      "sentiment_score": 2.516195212
+    },
+    {
+      "week": "2021-08-09",
+      "sentiment_score": 2.519705124
+    },
+    {
+      "week": "2021-08-16",
+      "sentiment_score": 2.5101319
+    },
+    {
+      "week": "2021-08-23",
+      "sentiment_score": 2.508056142
+    },
+    {
+      "week": "2021-08-30",
+      "sentiment_score": 2.50665298
+    },
+    {
+      "week": "2021-09-06",
+      "sentiment_score": 2.493685876
+    },
+    {
+      "week": "2021-09-13",
+      "sentiment_score": 2.490793314
+    },
+    {
+      "week": "2021-09-20",
+      "sentiment_score": 2.478274209
+    },
+    {
+      "week": "2021-09-27",
+      "sentiment_score": 2.480899066
+    },
+    {
+      "week": "2021-10-04",
+      "sentiment_score": 2.489459871
+    },
+    {
+      "week": "2021-10-11",
+      "sentiment_score": 2.492789501
+    },
+    {
+      "week": "2021-10-18",
+      "sentiment_score": 2.493032254
+    },
+    {
+      "week": "2021-10-25",
+      "sentiment_score": 2.508115106
+    },
+    {
+      "week": "2021-11-01",
+      "sentiment_score": 2.504949367
+    },
+    {
+      "week": "2021-11-08",
+      "sentiment_score": 2.491339741
+    },
+    {
+      "week": "2021-11-15",
+      "sentiment_score": 2.483284796
+    },
+    {
+      "week": "2021-11-22",
+      "sentiment_score": 2.478335451
+    },
+    {
+      "week": "2021-11-29",
+      "sentiment_score": 2.488785394
+    },
+    {
+      "week": "2021-12-06",
+      "sentiment_score": 2.489611832
+    },
+    {
+      "week": "2021-12-13",
+      "sentiment_score": 2.47596084
+    },
+    {
+      "week": "2021-12-20",
+      "sentiment_score": 2.470016517
+    },
+    {
+      "week": "2021-12-27",
+      "sentiment_score": 2.472527154
+    },
+    {
+      "week": "2022-01-03",
+      "sentiment_score": 2.476698643
+    },
+    {
+      "week": "2022-01-10",
+      "sentiment_score": 2.47668202
+    },
+    {
+      "week": "2022-01-17",
+      "sentiment_score": 2.478019893
+    },
+    {
+      "week": "2022-01-24",
+      "sentiment_score": 2.485084589
+    },
+    {
+      "week": "2022-01-31",
+      "sentiment_score": 2.492507111
+    },
+    {
+      "week": "2022-02-07",
+      "sentiment_score": 2.496982066
+    },
+    {
+      "week": "2022-02-14",
+      "sentiment_score": 2.494673472
+    },
+    {
+      "week": "2022-02-21",
+      "sentiment_score": 2.501678263
+    },
+    {
+      "week": "2022-02-28",
+      "sentiment_score": 2.499604937
+    },
+    {
+      "week": "2022-03-07",
+      "sentiment_score": 2.504326773
+    },
+    {
+      "week": "2022-03-14",
+      "sentiment_score": 2.493575106
+    },
+    {
+      "week": "2022-03-21",
+      "sentiment_score": 2.492059647
+    },
+    {
+      "week": "2022-03-28",
+      "sentiment_score": 2.505157878
+    },
+    {
+      "week": "2022-04-04",
+      "sentiment_score": 2.506817099
+    },
+    {
+      "week": "2022-04-11",
+      "sentiment_score": 2.491638193
+    },
+    {
+      "week": "2022-04-18",
+      "sentiment_score": 2.488061833
+    },
+    {
+      "week": "2022-04-25",
+      "sentiment_score": 2.488092904
+    },
+    {
+      "week": "2022-05-02",
+      "sentiment_score": 2.481452907
+    },
+    {
+      "week": "2022-05-09",
+      "sentiment_score": 2.502304494
+    },
+    {
+      "week": "2022-05-16",
+      "sentiment_score": 2.499710385
+    },
+    {
+      "week": "2022-05-23",
+      "sentiment_score": 2.50716763
+    },
+    {
+      "week": "2022-05-30",
+      "sentiment_score": 2.508751511
+    },
+    {
+      "week": "2022-06-06",
+      "sentiment_score": 2.507931094
+    }
+   ]

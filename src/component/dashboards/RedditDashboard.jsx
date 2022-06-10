@@ -15,7 +15,7 @@ import RedditWordcloud from '../../data/reddit-wordcloud.json'
 import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/scale.css';
 
-class ColumnChartStates extends PureComponent {
+class RedditDashboard extends PureComponent {
 
     constructor(props){
         super(props)
@@ -38,7 +38,7 @@ class ColumnChartStates extends PureComponent {
             <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
                 <div className="col-12">
                     <Card
-                        title="Mentions this week on Reddit"
+                        title="Reddit Weekly Mentions"
                         style={{
                         backgroundColor: 'rgb(39,39,39)',
                         }}
@@ -62,7 +62,7 @@ class ColumnChartStates extends PureComponent {
             <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
                 <div className="col-12">
                     <Card
-                        title="Sentiment score on Reddit"
+                        title="Reddit Sentiment Score"
                         style={{
                         backgroundColor: 'rgb(39,39,39)',
                         }}
@@ -80,7 +80,7 @@ class ColumnChartStates extends PureComponent {
                         <YAxis domain={[2, 3]} stroke="white"/>
                         <Tooltip />
                         <Legend height={30} verticalAlign="top"/>
-                        <Line type="monotone" dataKey="sentiment_score" stroke="rgb(255, 69, 0)" activeDot={{ r: 8 }} />
+                        <Line type="monotone" dataKey="sentiment_score" stroke="rgb(255, 69, 0)" activeDot={{ r: 8 }} dot={false} strokeWidth={4}/>
                         </LineChart>
                     </Card>
                 </div>
@@ -90,14 +90,14 @@ class ColumnChartStates extends PureComponent {
                 <div className="col-12">
 
                     <Card
-                        title="Wordcloud"
+                        title="Reddit Wordcloud"
                         style={{
                         backgroundColor: 'rgb(39,39,39)',
                         }}
                     >
                         <ReactWordcloud 
                             words={RedditWordcloud}
-                            options={{fontSizes: [15, 80], colors: ['#FD7F20', '#FC2E20', '#FDB750', '#010100', 'rgb(255, 69, 0)', 'rgb(255, 255, 255)']}}
+                            options={{fontSizes: [15, 80], colors: ['#FD7F20', '#FC2E20', '#010100', 'rgb(255, 69, 0)', 'rgb(255, 255, 255)']}}
                         />
                     </Card>
                 </div>
@@ -128,4 +128,4 @@ class ColumnChartStates extends PureComponent {
     }
 }
 
-export default ColumnChartStates;
+export default RedditDashboard;
