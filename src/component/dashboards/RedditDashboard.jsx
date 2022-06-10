@@ -6,7 +6,7 @@ import {
 import TwoColTable from '../tables/two-col-table';
 import OneColTable from '../tables/one-col-table';
 import { Card, Statistic } from 'antd';
-import { ArrowDownOutlined, RedditCircleFilled } from '@ant-design/icons';
+import { RedditCircleFilled } from '@ant-design/icons';
 
 
 import RedditSentimentScores from '../../data/reddit-sentiment-scores.json';
@@ -30,6 +30,12 @@ class RedditDashboard extends PureComponent {
         this.setState({
             data_array: RedditSentimentScores
         })
+    }
+
+    renderColorfulLegendText(value, entry) {
+      const { color } = entry;
+      
+      return <span style={{ color }}>{value}</span>;
     }
 
     render() {
@@ -74,7 +80,7 @@ class RedditDashboard extends PureComponent {
             },
             {
               key: '5',
-              company: 'AskReddit',
+              company: 'askreddit',
             },
         ];
         const topJobTitlesData = [
@@ -179,7 +185,7 @@ class RedditDashboard extends PureComponent {
     
             {/* Mentions this week on {this.props.info}: {this.state.total} */}
 
-            <div className="row p-3 mb-3 py-sm d-none d-md-flex mb-0">
+            <div className="row p-3 mb-3 py-sm d-none d-md-flex justify-content-center mb-0">
                 <div className="col-12">
                     <Card
                         title="Reddit Sentiment Score"
@@ -188,18 +194,17 @@ class RedditDashboard extends PureComponent {
                         }}
                     >
                         <LineChart
-                        width={1070}
-                        height={400}
-                        data={this.state.data_array}
-                        margin={{
-                            top: 5, right: 60, left: 20, bottom: 5,
-                        }}
+                          width={1000}
+                          height={400}
+                          data={this.state.data_array}
+                          margin={{
+                              top: 5, right: 60, left: 20, bottom: 5,
+                          }}
                         >
-                        <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="week" minTickGap={20} stroke="white"/>
                         <YAxis domain={[2, 3]} stroke="white"/>
                         <Tooltip />
-                        <Legend height={30} verticalAlign="top"/>
+                        <Legend height={30} verticalAlign="top" formatter={this.renderColorfulLegendText}/>
                         <Line type="monotone" dataKey="sentiment_score" stroke="rgb(255, 69, 0)" activeDot={{ r: 8 }} dot={false} strokeWidth={4}/>
                         </LineChart>
                     </Card>

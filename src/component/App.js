@@ -3,95 +3,96 @@ import React, { Component } from 'react';
 
 import './header.css'
 import './template.css';
-import logo from './logo.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import ListGroup from 'react-bootstrap/ListGroup';
-import ToggleButton from 'react-bootstrap/ToggleButton'
-import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
+
+import { TwitterCircleFilled, RedditCircleFilled } from '@ant-design/icons';
 
 import {
   Route,
   NavLink,
   BrowserRouter,
-  Switch
 } from "react-router-dom";
 
 import { Button, Dropdown, Space, Layout, Menu } from 'antd';
 
-
-import ChartSelectorUSA from './column charts/Column Chart USA.js';
 import RedditDashboard from './dashboards/RedditDashboard';
 import TwitterDashboard from './dashboards/TwitterDashboard';
 import 'antd/dist/antd.css';
 
 const { Header, Footer, Sider, Content } = Layout;
 
-
-const menu = (
-	<Menu
-	  items={[
-		{
-		  key: '1',
-		  label: (
-			<NavLink
-				to="/reddit"
-			>
-				Reddit
-			</NavLink>
-		  ),
-		},
-		{
-		  key: '2',
-		  label: (
-			<NavLink
-				to="/twitter"
-			>
-				Twitter
-			</NavLink>
-		  ),
-		},
-	  ]}
-	/>
-  );
-class No_Navbar_Template extends Component {
+class App extends Component {
 	constructor(props){
 		super(props)
 		this.state = {
-			selected_chart_type: "NewCasesChart"
+			selected_source: "reddit"
 		}
 		this.handleClick = this.handleClick.bind(this);
-		this.myfunction = this.myfunction.bind(this);
-
 	}
 
 	handleClick(event) {
+		console.log('event', event);
 		this.setState({
-			selected_chart_type: event.target.value
+			selected_source: event.key
 		})
+		console.log('this.state', this.state);
 	}
-
-	myfunction() {
-		window.location.href = "https://proven-entropy-270101.appspot.com/"
-  	}
   
-  	render() {    
+  	render() {  
+		console.log('this.state', this.state);
+		const menu = (
+			<Menu
+				onClick={this.handleClick}
+			  items={[
+				{
+				  key: 'reddit',
+				  label: (
+					<NavLink
+						onClick={this.handleClick}
+						to="/reddit"
+					>
+						Reddit
+					</NavLink>
+				  ),
+				  value: 'reddit'
+				},
+				{
+				  key: 'twitter',
+				  label: (
+					<NavLink 
+						onClick={this.handleClick}
+						to="/twitter"
+					>
+						Twitter
+					</NavLink>
+				  ),
+				},
+			  ]}
+			/>
+		  );
 		return (
-
 			<Layout className='mainContainter'>
 				<BrowserRouter>
 					<>
-						<Header style={{ position: 'fixed', zIndex: 1, width: '100%', backgroundColor: 'rgb(39,39,39)', borderBottom: '2px solid rgb(255, 69, 0)'}} className="header d-flex justify-content-center align-items-center">
+						<Header style={{ position: 'fixed', zIndex: 1, width: '100%', backgroundColor: 'rgb(39,39,39)', borderBottom: `2px solid ${this.state.selected_source === "reddit" ? "rgba(255, 69, 0, 1)" : "rgba(29, 161, 242, 1)"}`}} className="header d-flex justify-content-center align-items-center">
 							<Dropdown overlay={menu} placement="bottom">
 								<Button
-									style={{ background: "rgba(255, 69, 0, .7)", borderColor: "white", color:"white" }} 
-								>Social Media Company</Button>
+									className='d-flex align-items-center'
+									size="large"
+									style={{ 
+										background: this.state.selected_source === "reddit" ? "rgba(255, 69, 0, .9)" : "rgba(29, 161, 242, .9)",
+										border: "2px solid black",
+										padding: 20,
+										color:"black",
+										borderRadius: 5
+									}}
+									icon={this.state.selected_source === "reddit" ? <RedditCircleFilled style={{ fontSize: 32 }}/> : <TwitterCircleFilled style={{ fontSize: 32 }}/>}
+								>Social Media Source</Button>
 							</Dropdown>
 						</Header>
 						<Layout>
@@ -102,7 +103,7 @@ class No_Navbar_Template extends Component {
 										padding: 48,
 										marginTop: 36,
 										minHeight: 280,
-										backgroundColor: 'rgb(0, 0, 0)'
+										backgroundColor: 'rgba(0, 0, 0, .95)'
 									}}
 								>
 									<Row>
@@ -127,4 +128,4 @@ class No_Navbar_Template extends Component {
 }
 
 
-export default No_Navbar_Template;
+export default App;

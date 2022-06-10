@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import No_Navbar_Template from './component/No_Navbar_Template';
-import Dropdown from './component/Dropdown';
+import App from './component/App';
 
 
-ReactDOM.render(<No_Navbar_Template/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 //ReactDOM.render(<Dropdown />, document.getElementById('root'));
 

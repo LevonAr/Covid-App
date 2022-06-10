@@ -3,11 +3,11 @@
     color: white !important;
 }
 
-/* .ant-table-row:hover {
-    background-color: green !important;
-    color: white !important;
-} */
-
+.ant-table-row:hover {
+    background-color:  rgba(255, 69, 0, .7) !important;
+    color:  rgb(255, 69, 0) !important;
+}
+  
 thead .ant-table-cell {
     background-color: rgba(255, 69, 0, .7) !important;
     color: white !important;

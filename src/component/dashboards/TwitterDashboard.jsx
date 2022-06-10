@@ -31,6 +31,12 @@ class RedditDashboard extends PureComponent {
         })
     }
 
+    renderColorfulLegendText(value, entry) {
+        const { color } = entry;
+      
+        return <span style={{ color }}>{value}</span>;
+    }
+
     render() {
         return (
         <div>
@@ -67,18 +73,17 @@ class RedditDashboard extends PureComponent {
                         }}
                     >
                         <LineChart
-                        width={1070}
-                        height={400}
-                        data={this.state.data_array}
-                        margin={{
-                            top: 5, right: 60, left: 20, bottom: 5,
-                        }}
+                            width={1000}
+                            height={400}
+                            data={this.state.data_array}
+                            margin={{
+                                top: 5, right: 60, left: 20, bottom: 5,
+                            }}
                         >
-                        <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="week" minTickGap={20} stroke="white"/>
                         <YAxis domain={[2, 3]} stroke="white"/>
                         <Tooltip />
-                        <Legend height={30} verticalAlign="top"/>
+                        <Legend height={30} verticalAlign="top" formatter={this.renderColorfulLegendText}/>
                         <Line type="monotone" dataKey="sentiment_score" stroke="rgb(29, 161, 242)" activeDot={{ r: 8 }} strokeWidth={4}/>
                         </LineChart>
                     </Card>
